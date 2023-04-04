@@ -18,7 +18,7 @@ colnames(sEco) = c("Med_Gp","Species",substr(colnames(sEco)[-c(1:2)],4,nchar(col
 medGp = unique(sEco[,1])
 spNam = unique(sEco[,2])
 totSimu = nRep*simO*length(spNam)
-lgele = c("CFTR modulators","antimicrobials","pancrelipase","others (med)")
+lgele = c("beta agonists","deoxyribonuclease","mucolytic agents","supplementaries")
 lG0 = c();lG1 = strsplit(medGp,"");for(i in 1:length(medGp)){
         lG0[i] = paste(capFirst(lgele[which(lG1[[i]]==1)]),collapse=" + ")};rm(i,lG1)
 
