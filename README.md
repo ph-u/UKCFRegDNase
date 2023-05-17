@@ -1,5 +1,8 @@
 # Data sorting and result visualization: UK CF Registry data
 
+
+[![DOI](https://zenodo.org/badge/623195817.svg)](https://zenodo.org/badge/latestdoi/623195817)
+
 ## Requirements
 
 - Analysis [pipeline](https://github.com/ph-u/biLVC)
